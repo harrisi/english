@@ -89,9 +89,9 @@ double average(int[] array)
 
 void main()
 {
-    auto testers = [ [5, 15], // 20
-          [2, 3, 2, 3], // 10
-          [3, 6, 2, 9] ]; // 20
+    auto testers = [ [5, 15], // 10
+          [2, 3, 2, 3], // 2.5
+          [3, 6, 2, 9] ]; // 5
 
     for (auto i = 0; i < testers.length; ++i)
     {
